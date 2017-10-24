@@ -1,5 +1,5 @@
 /*
-Assignment no. 1		Roll n. :52
+Assignment no. 1	Roll n. :52
 
 Title :	A book consist of chapters, chapters consist of sections and section consist of sub sections.
 	Construct a tree and print the nodes. Find the times and space requirements of your method.
@@ -33,7 +33,8 @@ void BT::insert()
 {
 	char ans;
 	do
-	{	node *New;
+	{
+		node *New;
 		New = new node;
 		
 		cout<<"\nEnter book/chapter/section name : ";
